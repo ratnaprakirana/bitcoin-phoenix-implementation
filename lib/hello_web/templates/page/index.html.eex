@@ -1,0 +1,29 @@
+  <head>
+      <h1>Bitcoin Distribution</h1>
+  <br>
+    <button id="start_mining" type="button"  class="btn btn-info">start_mining</button>
+      <button id="clear_screen" type="button"  class="btn btn-info">clear screen</button>
+  <br>
+      <div id="messages" class="list-unstyled" style="height: 300px; overflow-y: auto; padding: 10px;">
+      <h2>Bitcoins</h2></div>
+  <br>
+      <div id="messages2" class="list-unstyled" style="height: 300px; overflow-y: auto; padding: 10px;">
+      <h2>Wallet Details</h2></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <canvas id="bar-chart" width="1200" height="500"></canvas>
+    </div>
+</body>
+    <div id="messages1" class="list-unstyled" style="height: 300px; overflow-y: auto; padding: 10px;">
+    <h2>Transaction Details </h2></div>
+    <body>
+    <div class="wrapper">
+        <canvas id="bar-chart1" width="1200" height="500"></canvas>
+    </div>
+  </body>
+  <footer>
+ <a> ©Ratna Prakirana </a>
+ </footer>
